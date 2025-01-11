@@ -20,7 +20,7 @@ El proyecto está dividido en dos microservicios:
 Cada microservicio está configurado con su propio puerto y se conecta a la misma base de datos MySQL.
 
 ### Estructura de Carpetas
-
+```bash
 Microservicios Chidos/
 ├── micro-cursos/
 │   ├── src/
@@ -35,7 +35,7 @@ Microservicios Chidos/
 │   └── application.properties
 │
 └── docker-compose.yml
-
+```
 ## Configuración
 
 ### application.properties (Microservicios)
